@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Média de notas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <!--<link rel='stylesheet' type='text/css' media='screen' href='style/style.css'>-->
+    
+    <script src='scripts/main.js'></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="text-center">Média de notas</h1>
+    <div id="esconder">
+	    <div class="row d-flex justify-content-center mt-3">
+		           <p class="mr-2">Quantidade de alunos:<p/>
+		           <input type="number" class="form-control mb-3" id="qtd" value="0">
+		           <button type="button" class="btn btn-dark" onclick="tabela()">Ok</button>
+	    </div>
+    </div>
+
+    <div class="container">
+        <table class="table">
+        	<div id="campos">
+            
+            
+        	</div>
+        	<div id="botoes" style="display: none">
+		   	<div class="row d-flex justify-content-center mt-3">
+		           <button type="button" class="btn btn-dark" onclick="calcular()">Enviar</button>
+		       </div>
+        	</div>
+        </table>
+
+        <table class="table">
+            <div id="resultados">
+            </div>
+        </table>
+
+    </div>
+</body>
+</html>
