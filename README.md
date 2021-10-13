@@ -1,2 +1,2 @@
 # MediaAlunos
-A
+Acesse em: https://kelvin-rnov.github.io/MediaAlunos/
